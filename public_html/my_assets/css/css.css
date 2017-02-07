@@ -1,0 +1,67 @@
+.textoprincipal{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white
+}
+.borde_div_cartasSinPoner{
+    border: solid 1px white;
+    height: 175px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.div_cartasSinPoner_container{
+    margin-left: 35px;
+}
+.tamanyoCartas{
+    width: 125px;
+    height: 100%;
+}
+.btn:focus{
+    outline:0px;
+}
+.letraModal-tittle{
+    font-size: 40px;
+    text-align: center;
+}
+.letraModal-body{
+    font-size: 20px;
+}
+.borde_div_juego{
+    border: solid 1px white;
+    height: 175px;
+    margin: 0px;
+}
+.borde_div_juego_encontrada{
+    border: solid 1px white;
+    height: 175px;
+    margin: 0px;
+    background-color: black;
+}
+.centrar_boton{
+    text-align: center;
+}
+.cartasFinal{
+    display: none;
+}
+.cartasFinal_GG{
+    width: 125px;
+    height: 100%;
+    z-index: 10;
+    margin-top: -173px;
+}
+
+.boton_reiniciar{
+    display: none;
+}
+
+/*fondo*/
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: #31b0d5 ;
+    background-size: cover;
+    text-align: center;
+}

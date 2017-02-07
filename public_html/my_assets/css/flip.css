@@ -1,0 +1,18 @@
+.flip{
+    position: relative;
+    transition: all 1s ease;
+    transform: perspective(1000px);
+    transform-origin: 100% 50%;
+    transform-style: preserve-3d;
+}
+.flipOnClick{
+    transform: perspective(1000px) rotateY(-180deg) translateX(100%);
+}
+.flip .flip-1,
+.flip .flip-2{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip .flip-2{
+    transform: rotateY(-180deg);
+}
